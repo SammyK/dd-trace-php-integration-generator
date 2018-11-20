@@ -3,5 +3,8 @@
     "description": "A CLI tool to help generate the boilerplate behind integrations",
     "type": "project",
     "license": "MIT",
-    "require": {}
+    "require": {},
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    }
 }
