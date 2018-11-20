@@ -1,0 +1,7 @@
+{
+    "name": "datadog/dd-trace-generator",
+    "description": "A CLI tool to help generate the boilerplate behind integrations",
+    "type": "project",
+    "license": "MIT",
+    "require": {}
+}
