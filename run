@@ -1,6 +1,11 @@
 #!/usr/bin/env php
 <?php
+
+use Symfony\Component\Console\Application;
+use DDGen\Commands\GenerateIntegrationCommand;
+
 require __DIR__.'/vendor/autoload.php';
 
-$application = new Symfony\Component\Console\Application;
+$application = new Application;
+$application->add(new GenerateIntegrationCommand);
 $application->run();
